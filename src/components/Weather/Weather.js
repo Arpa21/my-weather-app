@@ -9,7 +9,7 @@ const Weather = () => {
   const [errorMsg, setErrorMsg] = useState("");
 
   const api = {
-    url: "http://api.openweathermap.org/data/2.5/",
+    url: "https://api.openweathermap.org/data/2.5/",
     key: process.env.REACT_APP_OPENWEATHER,
   };
   const iconURL = "http://openweathermap.org/img/w/";
